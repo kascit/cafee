@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Bliss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="favicon-512x512.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-body-tertiary sticky-top">
+        
+        <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Cafe Bliss Logo"> Cafe Bliss</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="order.html">Order Online</a></li>
+            </ul>
+        </div>
+    </nav>
+    <img src="background.jpeg" alt="banner" id="banner">
+        <!-- Header -->
+    <header class=" white" class="head-color">
+        
+        <h1 class="intro-head poppins-bold">Welcome to <br>Cafe Bliss</h1>
+        <p class="intro-shead poppins-light">Your daily dose of bliss in a cup.</p>
+        <!-- About Us Section -->
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <p class="text-center">Cafe Bliss is your go-to spot for the best coffee in town. We pride ourselves on our top-quality beans and our commitment to delivering an exceptional coffee experience.</p>
+            <p class="text-center">At Cafe Bliss, we believe in the art of coffee making. We roast our own beans in-house to ensure that each cup of coffee you enjoy is fresh and full of flavor. Our skilled baristas are passionate about their craft and take great care in preparing each beverage to perfection.</p>
+            <p class="text-center">Quality is at the heart of everything we do. From selecting the finest coffee beans from sustainable sources to meticulously roasting and brewing them, we aim to provide a coffee experience that delights your senses. We also offer a selection of freshly baked pastries and snacks, made with the highest quality ingredients.</p>
+            <p class="text-center">Our cozy and welcoming atmosphere is perfect for catching up with friends, working remotely, or simply relaxing with a great cup of coffee. We host regular events, including coffee tastings and barista workshops, to share our love of coffee with our community.</p>
+            <p class="text-center">Join us at Cafe Bliss and discover why our coffee is the talk of the town. Whether you're a coffee connoisseur or just looking for a great place to unwind, we're here to make your day a little brighter.</p>
+        </div>
+    </section>
+        <!-- New Arrivals Section -->
+    <section id="new-arrivals" class="section bg-body-tertiary">
+        <div class="container">
+            <h2 class="text-center">New Arrivals</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pumpkin.jpeg" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pumpkin Spice Latte</h5>
+                            <p class="card-text">Seasonal favorite.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal"><a href="order.html">Try Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mocha.jpeg" class="card-img-top" alt="New Arrival 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Perfect blend of coffee and chocolate.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#mochaModal"><a href="order.html">Try Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="vanilla.jpeg" class="card-img-top" alt="New Arrival 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Latte</h5>
+                            <p class="card-text">A classic favorite.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#vanillaLatteModal"><a href="order.html">Try Now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <!-- elixers Section -->
+    <h1 class="display-4 text-center" id="menu">Our Offerings</h1>
+    <section id="elixers" class="section">
+        
+        <div class="container">
+            <h2 class="text-center">Elixers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="vanilla.jpeg" class="card-img-top" alt="New Arrival 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Vanilla Latte</h5>
+                            <p class="card-text">A classic favorite.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#vanillaLatteModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pumpkin.jpeg" class="card-img-top" alt="New Arrival 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pumpkin Spice Latte</h5>
+                            <p class="card-text">Seasonal favorite.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#pumpkinSpiceModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="espresso.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Rich and bold espresso.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="americano.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Rich and bold espresso.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mocha.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Rich and bold espresso.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="black.jpeg" class="card-img-top" alt="Coffee 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Black</h5>
+                            <p class="card-text">Rich and bold espresso.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#espressoModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cappuccino.jpeg" class="card-img-top" alt="Coffee 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Smooth and creamy cappuccino.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#cappuccinoModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="latte.jpeg" class="card-img-top" alt="Coffee 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Delicate and flavorful latte.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#latteModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="irish.jpeg" class="card-img-top" alt="Coffee 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Irish</h5>
+                            <p class="card-text">Delicate and flavorful.</p>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#latteModal"><a href="order.html">Buy Now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- baker Section -->
+    <section id="baker" class="section">
+        <div class="container">
+            <h2 class="text-center">Baker's Bounty</h2>
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="blueberry.jpeg" class="card-img-top" alt="Menu Item 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blueberry Muffin</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberryMuffinModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="croissant.jpeg" class="card-img-top" alt="Menu Item 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#croissantModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="bagel.jpeg" class="card-img-top" alt="Menu Item 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Smoked Salmon & Cream Cheese Bagel</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#bagelModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="scones.jpeg" class="card-img-top" alt="Menu Item 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Scones with Jalapeño Honey Butter</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#blueberryMuffinModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="twist.jpeg" class="card-img-top" alt="Menu Item 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Raspberry Danish Twist</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#croissantModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="tarts.jpeg" class="card-img-top" alt="Menu Item 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Mini Caramel Apple Tarts</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#bagelModal"><a href="menu.html">View Details</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Events Section -->
+    <section id="events" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Events</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="tasting.jpeg" class="card-img-top" alt="Event 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee Tasting</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#coffeeTastingModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="barista.jpeg" class="card-img-top" alt="Event 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Barista Workshop</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#baristaWorkshopModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="live.jpeg" class="card-img-top" alt="Event 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Live Music</h5>
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#liveMusicModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <p class="text-center">Feel free to reach out to us for any queries or feedback.</p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+                    </div><br>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+                    </div>
+                </div><br>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message"></textarea>
+                </div><br>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cafe Bliss. All Rights Reserved.</p>
+            <p>123 Coffee Street, Espresso City, CU 12345 | Email: info@cafebliss.com | Phone: (123) 456-7890</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var target = $('.intro-shead').offset().top;
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > target) {
+                        $('.navbar').removeClass('transparent').addClass('opaque');
+                    } else {
+                        $('.navbar').removeClass('opaque').addClass('transparent');
+                    }
+                });
+            });
+        </script>
+</body>
+</html>
